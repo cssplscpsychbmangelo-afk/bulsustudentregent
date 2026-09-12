@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Room Finder</title>
+  <!--
+    Demo page only. On the real rCloud (Next.js) site, you don't need
+    to replicate this page — just drop <RoomFinder /> into a Next.js
+    page (see room-finder-client.jsx for the wrapper).
+    Intentionally no body/site styling here so you can see the component
+    using the browser's native styles (which shows it will inherit rCloud's
+    styles when placed inside its layout).
+  -->
+  <link rel="stylesheet" href="./assets/css/roomfinder.css" />
+  <style>
+    body { max-width: 820px; margin: 2rem auto; padding: 0 1.25rem; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    .back-link { font-size: .9rem; }
+    .back-link a { color: inherit; opacity: .65; text-decoration: none; }
+    .back-link a:hover { opacity: 1; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <p class="back-link"><a href="https://rcloudcssp.netlify.app/">&larr; Back to Home</a></p>
+  <div id="room-finder"></div>
+  <script src="./assets/js/roomfinder.js" defer></script>
+</body>
+</html>

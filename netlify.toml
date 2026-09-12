@@ -1,0 +1,18 @@
+# Netlify configuration — rCloud: CSSP Room Finder (Roomivility)
+# Static-only site. All search/filtering happens client-side after one small JSON fetch.
+
+[build]
+  publish = "."
+  command = ""
+
+# Schedule data: cache briefly in CDN so updates propagate quickly.
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
+
+# Hashed/static assets: cache for a day.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
