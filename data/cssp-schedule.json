@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "CSSP Class Schedule",
+    "institution": "Bulacan State University — College of Social Sciences and Philosophy (CSSP)",
+    "updated": "2026-09-01",
+    "source": "Office of the College Secretary / CSSP (sample dataset — replace with official schedule)",
+    "isSample": true,
+    "disclaimer": "Room availability is based on the published class schedule and does not guarantee physical access or availability. Schedules may change; please verify with the appropriate academic office or instructor.",
+    "timezone": "Asia/Manila",
+    "buildings": [
+      { "code": "CSSP", "name": "CSSP Main Building" }
+    ],
+    "rooms": ["201", "202", "203", "301", "302", "303", "304"],
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  },
+  "schedule": [
+    { "day": "Monday",    "start": "07:30", "end": "09:00", "course": "PSY 101", "section": "BSP 1A", "room": "301" },
+    { "day": "Monday",    "start": "09:00", "end": "10:30", "course": "PSY 101", "section": "BSP 1B", "room": "301" },
+    { "day": "Monday",    "start": "11:00", "end": "12:30", "course": "PSY 102", "section": "BSP 2A", "room": "302" },
+    { "day": "Monday",    "start": "13:00", "end": "14:30", "course": "PSY 104", "section": "BSP 2B", "room": "301" },
+    { "day": "Monday",    "start": "14:30", "end": "16:00", "course": "SOC 101", "section": "BSO 1A", "room": "201" },
+    { "day": "Monday",    "start": "16:00", "end": "17:30", "course": "SOC 102", "section": "BSO 2A", "room": "202" },
+
+    { "day": "Tuesday",   "start": "07:30", "end": "09:00", "course": "PSY 103", "section": "BSP 2A", "room": "303" },
+    { "day": "Tuesday",   "start": "09:00", "end": "10:30", "course": "PSY 108", "section": "BSP 3A", "room": "303" },
+    { "day": "Tuesday",   "start": "10:30", "end": "12:00", "course": "PSY 115", "section": "BSP 3C", "room": "301" },
+    { "day": "Tuesday",   "start": "13:30", "end": "15:00", "course": "PSY 115", "section": "BSP 3C", "room": "301" },
+    { "day": "Tuesday",   "start": "13:30", "end": "15:00", "course": "PSY 125", "section": "BSP 4A", "room": "302" },
+    { "day": "Tuesday",   "start": "15:00", "end": "16:30", "course": "SOC 103", "section": "BSO 3A", "room": "203" },
+
+    { "day": "Wednesday", "start": "07:30", "end": "09:00", "course": "PSY 101", "section": "BSP 1A", "room": "301" },
+    { "day": "Wednesday", "start": "09:30", "end": "11:00", "course": "PSY 102", "section": "BSP 2A", "room": "302" },
+    { "day": "Wednesday", "start": "11:00", "end": "12:30", "course": "PSY 104", "section": "BSP 2B", "room": "303" },
+    { "day": "Wednesday", "start": "13:00", "end": "14:30", "course": "PSY 108", "section": "BSP 3A", "room": "203" },
+    { "day": "Wednesday", "start": "14:30", "end": "16:00", "course": "PSY 123", "section": "BSP 3B", "room": "301" },
+
+    { "day": "Thursday",  "start": "08:00", "end": "09:30", "course": "PSY 103", "section": "BSP 2A", "room": "302" },
+    { "day": "Thursday",  "start": "10:00", "end": "11:30", "course": "PSY 125", "section": "BSP 4A", "room": "302" },
+    { "day": "Thursday",  "start": "11:30", "end": "13:00", "course": "SOC 101", "section": "BSO 1A", "room": "201" },
+    { "day": "Thursday",  "start": "14:00", "end": "15:30", "course": "PSY 115", "section": "BSP 3C", "room": "301" },
+    { "day": "Thursday",  "start": "16:00", "end": "17:30", "course": "SOC 102", "section": "BSO 2A", "room": "202" },
+
+    { "day": "Friday",    "start": "07:30", "end": "09:00", "course": "PSY 101", "section": "BSP 1B", "room": "302" },
+    { "day": "Friday",    "start": "09:00", "end": "10:30", "course": "PSY 108", "section": "BSP 3A", "room": "303" },
+    { "day": "Friday",    "start": "11:00", "end": "12:30", "course": "PSY 123", "section": "BSP 3B", "room": "301" },
+    { "day": "Friday",    "start": "13:00", "end": "14:30", "course": "PSY 125", "section": "BSP 4A", "room": "301" },
+    { "day": "Friday",    "start": "15:00", "end": "16:30", "course": "SOC 103", "section": "BSO 3A", "room": "203" },
+
+    { "day": "Saturday",  "start": "08:00", "end": "11:00", "course": "PSY 199", "section": "BSP 4A", "room": "304" },
+    { "day": "Saturday",  "start": "11:00", "end": "14:00", "course": "SOC 199", "section": "BSO 4A", "room": "201" }
+  ]
+}
